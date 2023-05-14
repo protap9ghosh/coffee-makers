@@ -37,7 +37,7 @@ const AddCoffee = () => {
             }
          })
    }
-  
+
    return (
       <div className="bg-[#F4F3F0] py-10 px-5 md:px-56">
          <h2 className="text-slate-700 text-4xl font-bold text-center mb-10">Add New Coffee</h2>
