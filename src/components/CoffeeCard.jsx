@@ -1,4 +1,4 @@
-import { FaRegEye, FaEdit, FaRegEdit, FaTrash } from 'react-icons/fa';
+import { FaRegEye, FaRegEdit, FaTrash } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import Swal from 'sweetalert2';
 
@@ -56,7 +56,7 @@ const CoffeeCard = ({ coffee, coffees, setCoffees }) => {
                   <div className="grid space-y-2">
                      <button className="btn btn-sm rounded-md bg-orange-300 hover:bg-[#c79852]"><FaRegEye /></button>
                      <Link to={`update-coffee/${_id}`}>
-                        <button className="btn btn-sm rounded-md"><FaEdit /></button>
+                        <button className="btn btn-sm rounded-md"><FaRegEdit /></button>
                      </Link>
                      <button
                         onClick={() => handleDelete(_id)}
